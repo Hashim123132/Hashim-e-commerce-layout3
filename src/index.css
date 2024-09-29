@@ -1,0 +1,7 @@
+@font-face{
+  font-family: integral-cf;
+  src: url(../FONTS/Demo_Fonts/Fontspring-DEMO-integralcf-regular.otf);
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
