@@ -1,0 +1,155 @@
+
+@font-face{
+  font-family: integral-cf;
+  src: url(../FONTS/Demo_Fonts/Fontspring-DEMO-integralcf-regular.otf);
+}
+@font-face {
+  font-family:Satoshi ;
+  src: url(../FONTS/Satoshi_Complete/Fonts/OTF/Satoshi-Medium.otf);
+}
+@font-face {
+  font-family:didot ;
+  src: url(../FONTS/DIDOT/Didot\ Medium.ttf);
+}
+@font-face { 
+  font-family:radiant;
+  src: url(../FONTS/RADIANT/Radiant\ Bold\ Condensed\ Regular.ttf);
+}
+@font-face {
+  font-family: granjon;
+  src: url(../FONTS/Granjon-Font/Granjon.otf);
+}
+@font-face {
+  font-family:Prada ;
+  src: url(../FONTS/Prada-Font/engry.otf);
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: satoshi,Arial, Helvetica, sans-serif;
+}
+.header{
+  display: flex;
+
+  align-items: center;
+  height: 80px;
+  width: 1655px;
+  background-color: white;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom-style: solid;
+  border-color: rgb(221, 221, 221);
+  border-width: 1px;
+}
+
+.middle-section{
+  display: flex;
+  width:200px ;
+  margin-top: 20px;
+  margin-right: 200px;
+  width: 320px;
+  justify-content: space-between;
+  flex-shrink: 0;
+
+
+  align-items: center;
+}
+.right-section{
+  display: flex;
+
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 300px;
+  flex: 1;
+  max-width: 577px;
+
+}
+.category:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.input{
+  height: 30px;
+  flex: 1;
+  border-radius: 15px;
+  max-width: 500px;
+  border-style: none;
+  background-color: rgb(236, 229, 229);
+  width: 0;
+
+}
+.shopping-cart{
+  height: 20px;
+
+  margin-left: 10px;
+  transition: 0.15s;
+}
+.shopping-cart:hover{
+  cursor: pointer;
+  opacity:0.6
+}
+.search-icon{
+  background-color: rgb(236, 229, 229);
+  height: 26px;
+  margin-right: 10px;
+  
+  
+}
+.input::placeholder{
+  padding-left: 5px;
+}
+.path{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.chevron-right{
+  height: 30px;
+}
+.path-p{
+  color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

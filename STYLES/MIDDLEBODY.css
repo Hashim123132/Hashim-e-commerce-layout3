@@ -1,0 +1,166 @@
+.product-details-reviews-faqs-div{
+display: flex;
+border-bottom-style: solid;
+border-width: 1px;
+border-color:#0000001A;
+color:#00000099;
+justify-content: space-evenly;
+font-size: 20px;
+height: 60px;
+}
+.rating-and-reviews-div{
+  width: 300px;
+  height:58px;
+  border-bottom-style: solid ;
+  border-width: 2px;
+  cursor: pointer;
+  border-color: #000000;;
+ 
+}
+
+.rating-and-reviews{
+  color:#000000;
+  margin-left: 70px;
+
+}
+.all-reviews{
+  display: flex;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+.all-reviews-heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.all-reviews-text{
+  font-size: 30px;
+  font-weight: bold;
+}
+.number-of-reviews{
+  font-weight: 600px;
+  margin-top: 5px;
+  color: #00000099;
+}
+.sort{
+  margin-left: 1100px;
+}
+.fliter-list{
+  height: 40px;
+  width: 40px;
+  background-color: gray;
+  border-radius: 20px;
+  margin-top:20px ;
+  margin-right: 10px;
+}
+.latest-button-and-write-a-review-button-div{
+  display: flex;
+}
+.latest-button{
+  font-family: satoshi;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  padding-right:35px;
+  border-radius: 40px;
+  font-size: 15px;
+  border-style: none;
+  background-color: gray;
+  color: white;
+  position: relative;
+  margin-right: 30px;
+  margin-top:20px ;
+
+}
+.keyboard-arrow-down{
+  height:20px;
+  width: 20px;
+  position:absolute;
+  top:825px;
+  left:1430px;
+
+  
+}
+.write-a-review-button{
+  font-family: satoshi;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  border-style: none;
+  border-radius: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  padding-right:35px;
+  border-radius: 40px;
+  margin-top:20px ;
+
+}
+
+.customer-name-and-star,.customer-name-and-star2,
+.customer-name-and-star3{
+  height:250px;
+  width: 600px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(212, 212, 212);
+  border-radius: 20px;
+  margin-left: 60px;
+}
+.customer-name-and-star2,
+.customer-name-and-star3{
+  margin-top: 20px;
+}
+
+.review{
+  color: gray;
+  margin-left: 30px;
+  margin-right:50px ;
+  margin-top: 10px;
+  line-height: 23px;
+  font-family: satoshi;
+  font-weight: 400px;
+}
+.customers-stars{
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+.fa-check-circle{
+  color:#01AB31;
+
+}
+.review{
+  color: gray;
+  line-height: 25px;
+  font-weight: 500px;
+}
+.customer-name{
+  font-family: satoshi;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 13px;
+}
+.date-div{
+  margin-left: 30px;
+  margin-top: 20px;
+  color: gray;
+
+}
+.more-reviews{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(206, 205, 205);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  padding-right:35px;
+  border-radius: 40px;
+  margin-left: 740px;
+  margin-top: 40px;
+
+}
+
+

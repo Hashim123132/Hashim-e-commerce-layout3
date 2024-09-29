@@ -1,0 +1,184 @@
+.you-might-also-like{
+  font-family: integral-cf;
+  font-size: 55px;
+  font-weight:700;
+  margin-left: 550px;
+  margin-top: 150px;
+}
+
+.shirt-descrition-div{
+  margin-left: 200px;
+  font-family: satoshi;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.outer3{
+  height: 10px;
+}
+
+.items-to-shop{
+  display:flex;
+}
+.item1-image,
+.item2-image,
+.item3-image,
+.item4-image{
+  width: 296px;
+  height:296px;
+  margin-top: 60px;
+  border-radius: 17px;
+  object-fit: cover;
+  margin-left: 200px;
+  margin-right: 20px;
+  transition: 0.5s;
+}
+.item1-image:hover,
+.item2-image:hover,
+.item3-image:hover,
+.item4-image:hover{
+  height: 340px;
+  width: 340px;
+  cursor: pointer;
+
+}
+.item1-image:active,
+.item2-image:active,
+.item3-image:active,
+.item4-image:active{
+  opacity: 0.7;
+}
+
+.star-div{
+  margin-top: 10px;
+  margin-left: 200px;
+}
+.star-div2{
+  margin-top: 10px;
+margin-left: 10px;
+}
+.star-div3{
+  margin-left: 25px;
+  margin-top: 10px;
+  }
+.star-div4{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.rating,
+.rating2,
+.rating3,
+.rating4{
+  margin-left: 20px;
+  margin-top: 9px;
+  font-family: satoshi;
+}
+.allprices{
+  display: flex;
+  align-items: center;
+}
+.price,
+.price2,
+.price3,
+.price4{
+  font-size: 30px;
+  font-weight: 700;
+  margin-left:200px;
+  font-family:satoshi;
+}
+
+
+.starandnumber,
+.starandnumber2,
+.starandnumber3,
+.starandnumber4{
+  display: flex;
+  align-items: center;
+}
+.discount-button{
+  
+  background-color:#FF33331A;
+  color: #FF3333;
+  border-radius:20px;
+  border-style: none;
+  margin-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: satoshi;
+  margin-top: 13px;
+}
+.previous-price{
+  color: #00000066;
+
+  text-decoration:line-through;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left:10px;
+  margin-top: 20px;
+  font-family:satoshi
+}
+.view-all{
+ 
+  font-family: satoshi;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-style: solid;
+  border-color: rgb(207, 207, 207);
+  border-radius: 30px;
+  margin-left: 700px;
+  margin-top: 100px;
+  cursor: pointer;  
+  transition: 0.2s;
+  
+}
+.view-all:hover{
+  opacity: 0.8;
+}
+.view-all:active{
+  opacity: 0.5;
+}
+.UPDATES{
+display: flex;
+margin-top: 100px;
+margin-left: 130px;
+background-color: black;
+color: white;
+border-radius: 20px;
+height: 200px;
+width: 1400px;
+justify-content: space-around;
+align-items: center;
+}
+.updates-p{
+  font-family: integral-cf;
+  font-weight: bold;
+  font-size:40px;
+  line-height: 40px;
+  margin-left: 40px;
+  margin-top: 20px;
+
+}
+.newsletter{
+  font-size: 20px;
+  font-family: satoshi;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-radius: 30px;
+}
+.button-discription{
+  font-size: 20px;
+  font-family: satoshi;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 105px;
+  padding-right: 100px;
+  border-radius: 30px;
+  margin-top: 10px;
+}

@@ -1,0 +1,214 @@
+.upperbody-div-images{                            /* THIS IS THE CONTAINER OF CLOTHES */
+  display: flex;                          
+  flex-direction: column;
+  margin-left: 100px;
+
+  
+
+}
+ .side-images-variants{                               /*THIS IS THE IMAGE STYLING OF CLOTHES*/
+  border-radius: 10px;
+  width: 160px;
+  height: 170px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-bottom: 10px;  
+}
+.combined-div{                                         
+  display: flex;
+}
+.side-images-variants2{                                  /* THAT BIG IMAGE STYLING WHICH YOU ARE SEEING ON OUTPUT SCREEN */
+height:530px;
+width: 430px;
+border-radius: 20px;
+margin-left: 10px;
+object-fit: cover;
+}
+
+.star-div{
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.checked {
+  color: #FFC633;
+  
+}
+.GREENSHIRT-heading{
+  font-family: satoshi;
+  font-size:40px;
+  font-weight: 700;
+  margin-left: 50px;
+}
+.RATING{
+  display: flex;
+}
+.rating-numbers{
+  font-family: satoshi;
+  font-weight: 20px;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+.price{
+  font-family: satoshi;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.previous-price{
+  color: #00000066;
+
+  text-decoration:line-through;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left:10px;
+  font-family:satoshi
+}
+.product-description{
+  color: #00000099;
+  height: 70px;
+  width: 575px;
+  margin-left: 50px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: rgb(221, 221, 221);
+}
+.preference{
+  border-bottom-style: solid;
+  height: 100px;
+  margin-left:50px;
+  border-width: 1px;
+  border-color: #0000001A;
+  
+}
+.text-color-of-clothes{
+  color:#00000099;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+.all-colors{                                                 
+display: flex;
+
+}
+.color-of-clothes{
+  background-color: #4F4631;
+  border-radius: 1000px;
+  height:40px;
+  width: 40px;
+  margin-left: 25px;
+  position: relative;
+}
+.tick{
+  position: absolute;
+  top:5px;
+  left: 5px;
+  height: 30px;
+  width: 30px;
+}
+.color-of-clothes2{
+  background-color:#314F4A;
+  border-radius: 1000px;
+  height:40px;
+  width: 40px;
+  margin-left: 20px;
+ 
+}
+.color-of-clothes3{
+  background-color:#31344F;
+  border-radius: 1000px;
+  height:40px;
+  width: 40px;
+  margin-left: 20px;
+
+}
+ .size-for-product{                                /* THIS IS THE BIG CONTAINER FOR SIZE OF PRODUCT */
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color:#0000001A;
+  height: 120px;
+  margin-left: 50px;
+  justify-content: space-ev;
+}
+.size-text{
+  color: #00000099;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.size-btns{
+ color: #00000099;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ padding-left: 35px;
+ padding-right:35px;
+ border-radius: 40px;
+ font-size: 15px;
+ border-style: none;
+ cursor: pointer;
+ transition: padding 0.2s;
+ 
+}
+ .size-btns:hover{                                     /*THIS IS JUST ANIMATION FOR HOVERING */
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right:40px;
+  border-radius: 40px;
+  
+   
+}
+.quantity{
+  margin-left: 50px;
+}
+
+.minus{
+  font-size: 35px;
+  font-family: satoshi;
+  margin-right: 50px;
+
+}
+.plus{
+  font-size: 35px;
+  font-family: satoshi;
+  margin-left: 50px;
+
+}
+.quantity-button{
+
+  margin-top: 20px;
+  border-radius: 40px;  
+  border-style: none;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  
+}
+.add-to-cart-button{
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  margin-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 160px;
+  padding-right:160px;
+  border-radius: 40px;
+  margin-bottom: 20px;
+  transition: opacity 0.2s;
+}
+.add-to-cart-button:hover{
+  opacity: 0.8;
+  cursor:pointer;
+}
+
+
+
+
+
